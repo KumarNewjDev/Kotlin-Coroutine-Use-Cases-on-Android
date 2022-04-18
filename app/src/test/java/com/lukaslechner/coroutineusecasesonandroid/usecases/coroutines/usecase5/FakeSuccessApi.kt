@@ -1,6 +1,6 @@
-package com.lukaslechner.coroutineusecasesonandroid.usecases.coroutines.usecase5
+package com.vkdream.coroutine.usecases.coroutines.usecase5
 
-import com.lukaslechner.coroutineusecasesonandroid.mock.*
+import com.vkdream.coroutine.mock.*
 import kotlinx.coroutines.delay
 
 class FakeSuccessApi(private val responseDelay: Long) : MockApi {

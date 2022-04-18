@@ -1,10 +1,10 @@
-package com.lukaslechner.coroutineusecasesonandroid.usecases.coroutines.usecase6
+package com.vkdream.coroutine.usecases.coroutines.usecase6
 
-import com.lukaslechner.coroutineusecasesonandroid.mock.AndroidVersion
-import com.lukaslechner.coroutineusecasesonandroid.mock.MockApi
-import com.lukaslechner.coroutineusecasesonandroid.mock.VersionFeatures
-import com.lukaslechner.coroutineusecasesonandroid.mock.mockAndroidVersions
-import com.lukaslechner.coroutineusecasesonandroid.utils.EndpointShouldNotBeCalledException
+import com.vkdream.coroutine.mock.AndroidVersion
+import com.vkdream.coroutine.mock.MockApi
+import com.vkdream.coroutine.mock.VersionFeatures
+import com.vkdream.coroutine.mock.mockAndroidVersions
+import com.vkdream.coroutine.utils.EndpointShouldNotBeCalledException
 import kotlinx.coroutines.delay
 import java.io.IOException
 

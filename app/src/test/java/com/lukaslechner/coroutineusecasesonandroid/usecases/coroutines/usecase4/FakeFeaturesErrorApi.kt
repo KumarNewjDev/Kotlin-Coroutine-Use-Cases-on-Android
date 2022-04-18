@@ -1,6 +1,6 @@
-package com.lukaslechner.coroutineusecasesonandroid.usecases.coroutines.usecase4
+package com.vkdream.coroutine.usecases.coroutines.usecase4
 
-import com.lukaslechner.coroutineusecasesonandroid.mock.*
+import com.vkdream.coroutine.mock.*
 import kotlinx.coroutines.delay
 import okhttp3.MediaType
 import okhttp3.ResponseBody

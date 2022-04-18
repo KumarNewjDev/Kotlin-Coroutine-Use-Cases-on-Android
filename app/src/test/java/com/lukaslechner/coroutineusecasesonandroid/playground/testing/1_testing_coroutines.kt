@@ -1,4 +1,4 @@
-package com.lukaslechner.coroutineusecasesonandroid.playground.testing
+package com.vkdream.coroutine.playground.testing
 
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.delay

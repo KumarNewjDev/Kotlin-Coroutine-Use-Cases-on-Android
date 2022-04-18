@@ -1,7 +1,7 @@
-package com.lukaslechner.coroutineusecasesonandroid.usecases.coroutines.usecase14
+package com.vkdream.coroutine.usecases.coroutines.usecase14
 
-import com.lukaslechner.coroutineusecasesonandroid.mock.mockAndroidVersions
-import com.lukaslechner.coroutineusecasesonandroid.utils.MainCoroutineScopeRule
+import com.vkdream.coroutine.mock.mockAndroidVersions
+import com.vkdream.coroutine.utils.MainCoroutineScopeRule
 import junit.framework.Assert.assertEquals
 import junit.framework.Assert.fail
 import kotlinx.coroutines.ExperimentalCoroutinesApi

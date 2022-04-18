@@ -28,15 +28,15 @@ Unit Tests exist for most use cases.
 * Kotlin Coroutines Exception Handling explained [[link](https://youtu.be/Pgek3_3vPU8)]
 
 ## ✍️ Related blog posts
-* 7 Common Mistakes you might be making when using Kotlin Coroutines [[link](https://www.lukaslechner.com/7-common-mistakes-you-might-be-making-when-using-kotlin-coroutines/)]
-* Why exception handling with Kotlin Coroutines is so hard and how to successfully master it! [[link](https://www.lukaslechner.com/why-exception-handling-with-kotlin-coroutines-is-so-hard-and-how-to-successfully-master-it/)]
-* Kotlin Coroutines exception handling cheat sheet [[link](https://www.lukaslechner.com/coroutines-exception-handling-cheat-sheet/)]
-* Understanding Kotlin Coroutines with this mental model [[link](https://www.lukaslechner.com/understanding-kotlin-coroutines-with-this-mental-model/)]
-* Do I need to call suspend functions of Retrofit and Room on a background thread? [[link](https://www.lukaslechner.com/do-i-need-to-call-suspend-functions-of-retrofit-and-room-on-a-background-thread/)]
-* Comparing Kotlin Coroutines with Callbacks and RxJava [[link](https://www.lukaslechner.com/comparing-kotlin-coroutines-with-callbacks-and-rxjava/)]
-* How to run an expensive calculation with Kotlin Coroutines on the Android Main Thread without freezing the UI [[link](https://www.lukaslechner.com/how-to-run-an-expensive-calculation-with-kotlin-coroutines-on-the-android-main-thread-without-freezing-the-ui/)]
+* 7 Common Mistakes you might be making when using Kotlin Coroutines [[link](https://www.vkdream.com/7-common-mistakes-you-might-be-making-when-using-kotlin-coroutines/)]
+* Why exception handling with Kotlin Coroutines is so hard and how to successfully master it! [[link](https://www.vkdream.com/why-exception-handling-with-kotlin-coroutines-is-so-hard-and-how-to-successfully-master-it/)]
+* Kotlin Coroutines exception handling cheat sheet [[link](https://www.vkdream.com/coroutines-exception-handling-cheat-sheet/)]
+* Understanding Kotlin Coroutines with this mental model [[link](https://www.vkdream.com/understanding-kotlin-coroutines-with-this-mental-model/)]
+* Do I need to call suspend functions of Retrofit and Room on a background thread? [[link](https://www.vkdream.com/do-i-need-to-call-suspend-functions-of-retrofit-and-room-on-a-background-thread/)]
+* Comparing Kotlin Coroutines with Callbacks and RxJava [[link](https://www.vkdream.com/comparing-kotlin-coroutines-with-callbacks-and-rxjava/)]
+* How to run an expensive calculation with Kotlin Coroutines on the Android Main Thread without freezing the UI [[link](https://www.vkdream.com/how-to-run-an-expensive-calculation-with-kotlin-coroutines-on-the-android-main-thread-without-freezing-the-ui/)]
 
-Sign up to my [newsletter](https://www.lukaslechner.com/newsletter/) to never miss a new blog post. I will publish new blog posts about Coroutines on a regular basis.
+Sign up to my [newsletter](https://www.vkdream.com/newsletter/) to never miss a new blog post. I will publish new blog posts about Coroutines on a regular basis.
 
 ## 🎓 Online Course
 
@@ -48,9 +48,9 @@ This project is the foundation of a comprehensive Online Course about [Mastering
 
 If you like this project, please tell other developers about it! ❤️
 
-[![Share on Twitter](documentation/images/Twitter_bird_logo.png)](https://twitter.com/intent/tweet?url=https%3A%2F%2Fgithub.com%2FLukasLechnerDev%2FKotlin-Coroutine-Use-Cases-on-Android&text=This%20awesome%20example%20project%20shows%20how%20to%20implement%20the%20most%20common%20use%20cases%20for%20using%20Kotlin%20Coroutines%20for%20Android%20Development%21%20By%20@LukasLechnerDev&hashtags=%23AndroidDev%20%23Kotlin%20%23Coroutines)
+[![Share on Twitter](documentation/images/Twitter_bird_logo.png)](https://twitter.com/intent/tweet?url=https%3A%2F%2Fgithub.com%2FvkdreamDev%2FKotlin-Coroutine-Use-Cases-on-Android&text=This%20awesome%20example%20project%20shows%20how%20to%20implement%20the%20most%20common%20use%20cases%20for%20using%20Kotlin%20Coroutines%20for%20Android%20Development%21%20By%20@vkdreamDev&hashtags=%23AndroidDev%20%23Kotlin%20%23Coroutines)
 
-If you like, you can follow me on Twitter [**@LukasLechnerDev**](https://twitter.com/LukasLechnerDev).
+If you like, you can follow me on Twitter [**@vkdreamDev**](https://twitter.com/vkdreamDev).
 
 ## ⭐️ Use Cases
 1. [Perform single network request](#1-perform-single-network-request)
@@ -77,17 +77,17 @@ If you like, you can follow me on Twitter [**@LukasLechnerDev**](https://twitter
 
 This use case performs a single network request to get the latest Android Versions and displays them on the screen.
 
-[[code](app/src/main/java/com/lukaslechner/coroutineusecasesonandroid/usecases/coroutines/usecase1/PerformSingleNetworkRequestViewModel.kt)]
+[[code](app/src/main/java/com/vkdream/coroutineusecasesonandroid/usecases/coroutines/usecase1/PerformSingleNetworkRequestViewModel.kt)]
 
 ### 2. Perform two sequential network requests
 
 This use case performs two network requests sequentially. First it retrieves recent Android Versions and then it requests the features of the latest version.
 
-There are also 2 alternative implementations included. One is using old-school [callbacks](app/src/main/java/com/lukaslechner/coroutineusecasesonandroid/usecases/coroutines/usecase2/callbacks/SequentialNetworkRequestsCallbacksViewModel.kt).
-The other one uses [RxJava](app/src/main/java/com/lukaslechner/coroutineusecasesonandroid/usecases/coroutines/usecase2/rx/SequentialNetworkRequestsRxViewModel.kt). You can compare each implementation.
+There are also 2 alternative implementations included. One is using old-school [callbacks](app/src/main/java/com/vkdream/coroutineusecasesonandroid/usecases/coroutines/usecase2/callbacks/SequentialNetworkRequestsCallbacksViewModel.kt).
+The other one uses [RxJava](app/src/main/java/com/vkdream/coroutineusecasesonandroid/usecases/coroutines/usecase2/rx/SequentialNetworkRequestsRxViewModel.kt). You can compare each implementation.
 If you compare all three implementations, it is really interesting to see, in my opinion, how simple the Coroutine-based version actually is.
 
-[[code](app/src/main/java/com/lukaslechner/coroutineusecasesonandroid/usecases/coroutines/usecase2/Perform2SequentialNetworkRequestsViewModel.kt)]
+[[code](app/src/main/java/com/vkdream/coroutineusecasesonandroid/usecases/coroutines/usecase2/Perform2SequentialNetworkRequestsViewModel.kt)]
 
 ### 3. Perform several network requests concurrently
 
@@ -96,14 +96,14 @@ that performs the requests sequentially is included. The UI shows how much time 
 requests in the concurrent version are actually performed in parallel. The included unit test is also interesting, as it shows how you can use virtual time to
 verify that the concurrent version really gets performed in parallel.
 
-[[code](app/src/main/java/com/lukaslechner/coroutineusecasesonandroid/usecases/coroutines/usecase3/PerformNetworkRequestsConcurrentlyViewModel.kt)]
+[[code](app/src/main/java/com/vkdream/coroutineusecasesonandroid/usecases/coroutines/usecase3/PerformNetworkRequestsConcurrentlyViewModel.kt)]
 
 ### 4. Perform variable amount of network requests
 
 Demonstrates the simple usage of `map()` to perform a dynamic amount of network requests. At first, this use case performs a network request to load all Android versions.
 Then it performs a network request for each Android version to load its features. It contains an implementation that performs the network requests sequentially and another one that performs them concurrently.
 
-[[code](app/src/main/java/com/lukaslechner/coroutineusecasesonandroid/usecases/coroutines/usecase4/VariableAmountOfNetworkRequestsViewModel.kt)]
+[[code](app/src/main/java/com/vkdream/coroutineusecasesonandroid/usecases/coroutines/usecase4/VariableAmountOfNetworkRequestsViewModel.kt)]
 
 ### 5. Perform network request with timeout
 
@@ -112,7 +112,7 @@ You can set the duration of the request in the UI and check the behaviour when t
 
 General networking timeouts can also be [configured in the okhttp client](https://square.github.io/okhttp/recipes/#timeouts-kt-java).
 
-[[code](app/src/main/java/com/lukaslechner/coroutineusecasesonandroid/usecases/coroutines/usecase5/NetworkRequestWithTimeoutViewModel.kt)]
+[[code](app/src/main/java/com/vkdream/coroutineusecasesonandroid/usecases/coroutines/usecase5/NetworkRequestWithTimeoutViewModel.kt)]
 
 ### 6. Retrying network requests
 
@@ -120,7 +120,7 @@ Demonstrates the usage of higher order functions together with coroutines. The h
 It uses an exponential backoff for retries, which means that the delay between retries increases exponentially. The behavior of the Mock API is defined in a way that it responses
 with 2 unsuccessful responses followed by a successful response.
 
-[[code](app/src/main/java/com/lukaslechner/coroutineusecasesonandroid/usecases/coroutines/usecase6/RetryNetworkRequestViewModel.kt)]
+[[code](app/src/main/java/com/vkdream/coroutineusecasesonandroid/usecases/coroutines/usecase6/RetryNetworkRequestViewModel.kt)]
 
 Unit tests verify the amount of request that are performed in different scenarios. Furthermore they check if the exponential backoff is working properly
 by asserting the amount of elapsed virtual time.
@@ -130,11 +130,11 @@ by asserting the amount of elapsed virtual time.
 Composes higher level functions `retry()` and `withTimeout()`. Demonstrates how simple and readable code written with Coroutines can be.
 The mock API first responds after the timeout and then returns an unsuccessful response. The third attempt is then successful.
 
-Take a look at the included [callback-based implementation](app/src/main/java/com/lukaslechner/coroutineusecasesonandroid/usecases/coroutines/usecase7/callbacks/TimeoutAndRetryCallbackViewModel.kt) to see how tricky this use case is to implement without Coroutines.
+Take a look at the included [callback-based implementation](app/src/main/java/com/vkdream/coroutineusecasesonandroid/usecases/coroutines/usecase7/callbacks/TimeoutAndRetryCallbackViewModel.kt) to see how tricky this use case is to implement without Coroutines.
 
-I also implemented the use case with [RxJava](app/src/main/java/com/lukaslechner/coroutineusecasesonandroid/usecases/coroutines/usecase7/rx/TimeoutAndRetryRxViewModel.kt).
+I also implemented the use case with [RxJava](app/src/main/java/com/vkdream/coroutineusecasesonandroid/usecases/coroutines/usecase7/rx/TimeoutAndRetryRxViewModel.kt).
 
-[[code](app/src/main/java/com/lukaslechner/coroutineusecasesonandroid/usecases/coroutines/usecase7/TimeoutAndRetryViewModel.kt)]
+[[code](app/src/main/java/com/vkdream/coroutineusecasesonandroid/usecases/coroutines/usecase7/TimeoutAndRetryViewModel.kt)]
 
 ### 8. Room and Coroutines
 
@@ -142,7 +142,7 @@ This example stores the response data of each network request in a Room database
 If the `View` requests data, the `ViewModel` first checks if there is data available in the database. If so, this data is returned before performing
 a network request to get fresh data.
 
-[[code](app/src/main/java/com/lukaslechner/coroutineusecasesonandroid/usecases/coroutines/usecase8/RoomAndCoroutinesViewModel.kt)]
+[[code](app/src/main/java/com/vkdream/coroutineusecasesonandroid/usecases/coroutines/usecase8/RoomAndCoroutinesViewModel.kt)]
 
 ### 9. Debugging Coroutines
 
@@ -150,7 +150,7 @@ This is not really a use case, but I wanted to show how you can add additional d
 It will add the Coroutine name next to the thread name when calling `Thread.currentThread.name()`
 This is done by enabling Coroutine Debug mode by setting the property `kotlinx.coroutines.debug` to `true`.
 
-[[code](app/src/main/java/com/lukaslechner/coroutineusecasesonandroid/usecases/coroutines/usecase9/DebuggingCoroutinesViewModel.kt)]
+[[code](app/src/main/java/com/vkdream/coroutineusecasesonandroid/usecases/coroutines/usecase9/DebuggingCoroutinesViewModel.kt)]
 
 ### 10. Offload expensive calculation to background thread
 
@@ -158,7 +158,7 @@ This use case calculates the factorial of a number. The calculation is performed
 
 **Attention: This use case does not support cancellation! UseCase#11 fixes this!**
 
-[[code](app/src/main/java/com/lukaslechner/coroutineusecasesonandroid/usecases/coroutines/usecase10/CalculationInBackgroundViewModel.kt)]
+[[code](app/src/main/java/com/vkdream/coroutineusecasesonandroid/usecases/coroutines/usecase10/CalculationInBackgroundViewModel.kt)]
 
 In the respective unit test, we have to pass the testDispatcher to the ViewModel, so that the calculation is not performed on a background thread but on the main thread.
 
@@ -171,21 +171,21 @@ Button. Note: Only the calculation can be cancelled prematurely but not the `toS
 There are several ways to make your coroutines cooperative regarding cancellation: You can use either use `isActive()`, `ensureActive()` or `yield()`.
 More information about cancellation can be found [here](https://medium.com/androiddevelopers/exceptions-in-coroutines-ce8da1ec060c)
 
-[[code](app/src/main/java/com/lukaslechner/coroutineusecasesonandroid/usecases/coroutines/usecase11/CooperativeCancellationViewModel.kt)]
+[[code](app/src/main/java/com/vkdream/coroutineusecasesonandroid/usecases/coroutines/usecase11/CooperativeCancellationViewModel.kt)]
 
 ### 12. Offload expensive calculation to several Coroutines
 
 The factorial calculation here is not performed by a single coroutine, but by an amount of coroutines that can be defined in the UI. Each coroutine calculates the factorial of a sub-range.
 
-[[code viewmodel](app/src/main/java/com/lukaslechner/coroutineusecasesonandroid/usecases/coroutines/usecase12/CalculationInSeveralCoroutinesViewModel.kt)]
-[[code factorial calculator](app/src/main/java/com/lukaslechner/coroutineusecasesonandroid/usecases/coroutines/usecase12/FactorialCalculator.kt)]
+[[code viewmodel](app/src/main/java/com/vkdream/coroutineusecasesonandroid/usecases/coroutines/usecase12/CalculationInSeveralCoroutinesViewModel.kt)]
+[[code factorial calculator](app/src/main/java/com/vkdream/coroutineusecasesonandroid/usecases/coroutines/usecase12/FactorialCalculator.kt)]
 
 ### 13. Exception Handling
 
 This use case demonstrates different ways of handling exceptions using `try/catch` and `CoroutineExceptionHandler`. It also demonstrates when you should to use `supervisorScope{}`: In situations when you don't want a failing coroutine to cancel
 its sibling coroutines. In one implementation of this use case, the results of the successful responses are shown even tough one response wasn't successful.
 
-[[code](app/src/main/java/com/lukaslechner/coroutineusecasesonandroid/usecases/coroutines/usecase13/ExceptionHandlingViewModel.kt)]
+[[code](app/src/main/java/com/vkdream/coroutineusecasesonandroid/usecases/coroutines/usecase13/ExceptionHandlingViewModel.kt)]
 
 ### 14. Continue Coroutine execution when the user leaves the screen
 
@@ -197,8 +197,8 @@ cache when the user leaves the screen. This makes sense in real world applicatio
 You can test this behavior in the UI by clearing the database, then loading the Android version and instantly close the screen. You will see in LogCat that the response
 still gets executed and the result still gets stored. The respective unit test `AndroidVersionRepositoryTest` also verifies this behavior. Check out this [blogpost](https://medium.com/androiddevelopers/coroutines-patterns-for-work-that-shouldnt-be-cancelled-e26c40f142ad) for details of the implementation.
 
-[[code viewmodel](app/src/main/java/com/lukaslechner/coroutineusecasesonandroid/usecases/coroutines/usecase14/ContinueCoroutineWhenUserLeavesScreenViewModel.kt)]
-[[code repository](app/src/main/java/com/lukaslechner/coroutineusecasesonandroid/usecases/coroutines/usecase14/AndroidVersionRepository.kt)]
+[[code viewmodel](app/src/main/java/com/vkdream/coroutineusecasesonandroid/usecases/coroutines/usecase14/ContinueCoroutineWhenUserLeavesScreenViewModel.kt)]
+[[code repository](app/src/main/java/com/vkdream/coroutineusecasesonandroid/usecases/coroutines/usecase14/AndroidVersionRepository.kt)]
 
 ### 15. Using WorkManager with Coroutines
 
@@ -206,8 +206,8 @@ Demonstrates how you can use WorkManager together with Coroutines. When creating
 the `doWork()` function is now a `suspend function` which means that we can now call other suspend functions. In this
 example, we are sending an analytics request when the user enters the screen, which is a nice use case for using WorkManager.
 
-[[code viewmodel](app/src/main/java/com/lukaslechner/coroutineusecasesonandroid/usecases/coroutines/usecase15/WorkManagerViewModel.kt)]
-[[code worker](app/src/main/java/com/lukaslechner/coroutineusecasesonandroid/usecases/coroutines/usecase15/AnalyticsWorker.kt)]
+[[code viewmodel](app/src/main/java/com/vkdream/coroutineusecasesonandroid/usecases/coroutines/usecase15/WorkManagerViewModel.kt)]
+[[code worker](app/src/main/java/com/vkdream/coroutineusecasesonandroid/usecases/coroutines/usecase15/AnalyticsWorker.kt)]
 
 
 ### 16. Performance analysis of dispatchers, number of coroutines and yielding
@@ -219,7 +219,7 @@ the calculation to be performed on. Additionally, you can enable or disable the 
 
 This example shows how you can perform an expensive calculation on the main thread in a non-blocking fashion. It uses `yield()` for every step in the calculation so that other work, like drawing the UI, can be performed
 on the main thread. It is more a "showcase" rather than a use case for a real application, because of performance reasons you should always perform expensive calculations on a background thread (See UseCase#10).
-See [[this blog post](https://www.lukaslechner.com/how-to-run-an-expensive-calculation-with-kotlin-coroutines-on-the-android-main-thread-without-freezing-the-ui/)] for more information!
+See [[this blog post](https://www.vkdream.com/how-to-run-an-expensive-calculation-with-kotlin-coroutines-on-the-android-main-thread-without-freezing-the-ui/)] for more information!
 
 
 You can play around and check the performance of different configurations!
@@ -230,11 +230,11 @@ I am currently learning Coroutines myself. So if you have any ideas for or impro
 
 ## Author
 
-![LukasLechner](documentation/images/lukle.png)
+![vkdream](documentation/images/lukle.png)
 
-[Lukas Lechner](https://www.lukaslechner.com)
+[Lukas Lechner](https://www.vkdream.com)
 
-[Twitter](https://twitter.com/LukasLechnerDev) 
+[Twitter](https://twitter.com/vkdreamDev)
 
 ## License
 

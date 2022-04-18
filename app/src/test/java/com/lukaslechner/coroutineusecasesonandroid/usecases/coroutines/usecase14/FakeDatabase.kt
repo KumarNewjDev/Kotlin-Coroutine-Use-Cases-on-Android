@@ -1,6 +1,6 @@
-package com.lukaslechner.coroutineusecasesonandroid.usecases.coroutines.usecase14
+package com.vkdream.coroutine.usecases.coroutines.usecase14
 
-import com.lukaslechner.coroutineusecasesonandroid.mock.mockAndroidVersions
+import com.vkdream.coroutine.mock.mockAndroidVersions
 
 class FakeDatabase : AndroidVersionDao {
 

@@ -1,6 +1,6 @@
-package com.lukaslechner.coroutineusecasesonandroid.usecases.coroutines.usecase2.callbacks
+package com.vkdream.coroutine.usecases.coroutines.usecase2.callbacks
 
-import com.lukaslechner.coroutineusecasesonandroid.mock.*
+import com.vkdream.coroutine.mock.*
 import retrofit2.Call
 import retrofit2.mock.Calls
 

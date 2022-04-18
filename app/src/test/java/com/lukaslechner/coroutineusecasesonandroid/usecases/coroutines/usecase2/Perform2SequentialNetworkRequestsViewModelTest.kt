@@ -1,8 +1,8 @@
-package com.lukaslechner.coroutineusecasesonandroid.usecases.coroutines.usecase2
+package com.vkdream.coroutine.usecases.coroutines.usecase2
 
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
-import com.lukaslechner.coroutineusecasesonandroid.mock.mockVersionFeaturesAndroid10
-import com.lukaslechner.coroutineusecasesonandroid.utils.MainCoroutineScopeRule
+import com.vkdream.coroutine.mock.mockVersionFeaturesAndroid10
+import com.vkdream.coroutine.utils.MainCoroutineScopeRule
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.test.runBlockingTest
 import org.junit.Assert

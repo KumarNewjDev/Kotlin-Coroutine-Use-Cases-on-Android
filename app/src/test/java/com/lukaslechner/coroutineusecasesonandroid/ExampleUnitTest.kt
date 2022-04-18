@@ -1,4 +1,4 @@
-package com.lukaslechner.coroutineusecasesonandroid
+package com.vkdream.coroutine
 
 import org.junit.Assert.assertEquals
 import org.junit.Test

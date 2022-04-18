@@ -1,7 +1,7 @@
-package com.lukaslechner.coroutineusecasesonandroid.usecases.coroutines.usecase3
+package com.vkdream.coroutine.usecases.coroutines.usecase3
 
-import com.lukaslechner.coroutineusecasesonandroid.mock.*
-import com.lukaslechner.coroutineusecasesonandroid.utils.EndpointShouldNotBeCalledException
+import com.vkdream.coroutine.mock.*
+import com.vkdream.coroutine.utils.EndpointShouldNotBeCalledException
 import kotlinx.coroutines.delay
 import okhttp3.MediaType
 import okhttp3.ResponseBody

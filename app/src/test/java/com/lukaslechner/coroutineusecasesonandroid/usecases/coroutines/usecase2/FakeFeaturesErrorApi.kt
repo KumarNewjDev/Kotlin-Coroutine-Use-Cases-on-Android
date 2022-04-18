@@ -1,6 +1,6 @@
-package com.lukaslechner.coroutineusecasesonandroid.usecases.coroutines.usecase2
+package com.vkdream.coroutine.usecases.coroutines.usecase2
 
-import com.lukaslechner.coroutineusecasesonandroid.mock.*
+import com.vkdream.coroutine.mock.*
 import okhttp3.MediaType
 import okhttp3.ResponseBody
 import retrofit2.HttpException

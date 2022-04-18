@@ -1,3 +1,3 @@
-package com.lukaslechner.coroutineusecasesonandroid.utils
+package com.vkdream.coroutine.utils
 
 class EndpointShouldNotBeCalledException : Throwable()
